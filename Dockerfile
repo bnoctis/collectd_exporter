@@ -1,6 +1,4 @@
-ARG TARGETARCH
-ARG TARGETOS
-FROM  quay.io/prometheus/busybox-${TARGETOS}-${TARGETARCH}:latest
+FROM  quay.io/prometheus/busybox:latest
 LABEL maintainer="The Prometheus Authors <prometheus-developers@googlegroups.com>"
 
 ARG TARGETARCH
